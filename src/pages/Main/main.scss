@@ -1,0 +1,18 @@
+@import '../../styles/mixins';
+
+.main {
+  padding: 30px 400px 0 300px;
+
+  @include onPhone {
+    padding: 20px;
+  }
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-weight: normal;
+}
