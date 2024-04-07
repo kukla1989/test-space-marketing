@@ -5,6 +5,7 @@ import { Main } from './pages/Main/Main';
 import { NotFound } from './pages/NotFound/NotFound';
 import HeaderTop from './components/HeaderTop/HeaderTop';
 import Header from './components/Header/Header';
+import Done from './pages/Done/Done';
 
 export const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ export const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/home" element={<Navigate to="/" />} />
+        <Route path="/done" element={<Done />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

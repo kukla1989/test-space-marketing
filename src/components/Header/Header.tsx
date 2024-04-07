@@ -29,11 +29,10 @@ const Header = () => {
           <div className="square"></div>
           <div className="square"></div>
         </div>
-
-        <G1 />
+        <a href="#form" className="g1" aria-label="g1"><G1 /></a>
       </div>
 
-      <a href="#1" className="logo">São Paulo</a>
+      <a href="#form" className="logo">São Paulo</a>
 
       <div className="search">
         <input

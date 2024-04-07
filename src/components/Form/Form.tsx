@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import './form.scss';
 
@@ -17,7 +18,7 @@ const Form = () => {
     phone: '',
   });
   const [errors, setErrors] = useState<Partial<FormState>>({});
-
+  const navigate = useNavigate();
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
 
@@ -53,12 +54,12 @@ const Form = () => {
       return;
     }
 
-    alert(Object.values(formData));
+    navigate('/done');
   };
 
   return (
     <div className="container">
-      <form className="form" onSubmit={handleSubmit}>
+      <form className="form" onSubmit={handleSubmit} id="form">
         <div className="form-group">
           <input
             type="text"

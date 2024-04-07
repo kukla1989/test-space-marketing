@@ -1,0 +1,11 @@
+@import '../../styles/mixins';
+
+.title {
+  font-size: 50px;
+  margin-top: 100px;
+
+  @include onPhone {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+}

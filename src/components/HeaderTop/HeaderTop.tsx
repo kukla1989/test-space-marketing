@@ -19,7 +19,7 @@ const HeaderTop = () => {
       <div className="left">
         {linkNames.map(link => (
           <a
-            href="#1"
+            href="#form"
             className="link left-link"
             style={{ color: link[1], '--hover-line': link[1] } as React.CSSProperties}
             key={uuidv4()}
@@ -30,9 +30,9 @@ const HeaderTop = () => {
       </div>
 
       <div className="right">
-        <a href="#1" className="right-link link">Assine Já</a>
+        <a href="#form" className="right-link link">Assine Já</a>
 
-        <a href="#1" className="right-link link">
+        <a href="#form" className="right-link link">
           <PersonSVG />
           {' '}
           Conta Globo

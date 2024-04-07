@@ -6,7 +6,7 @@ import Form from '../../components/Form/Form';
 
 export const Main = () => (
   <div className="main">
-    {/* <Article /> */}
+    <Article />
     <Form />
   </div>
 );
