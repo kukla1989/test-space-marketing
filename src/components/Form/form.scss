@@ -1,0 +1,49 @@
+@import '../../styles/vars';
+@import '../../styles/mixins';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.error {
+  color: $cRedPrimary;
+  font-size: 12px;
+}
+
+.form-input,
+.submit {
+  width: 466px;
+  height: 48px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: $cGrayLight;
+
+
+  @include onPhone {
+    width: 300px;
+    height: 30px;
+  }
+
+  &::placeholder {
+    padding-left: 15px;
+  }
+}
+
+.submit {
+  background-color: $cRedPrimary;
+  color: $cWhite;
+
+  &:hover {
+    background-color: $cGrayLight;
+    color: black;
+    border: 1px solid $cGray;
+  }
+}
