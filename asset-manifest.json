@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/test-space-marketing/static/css/main.79ef19fa.chunk.css",
-    "main.js": "/test-space-marketing/static/js/main.868b6b6e.chunk.js",
-    "main.js.map": "/test-space-marketing/static/js/main.868b6b6e.chunk.js.map",
-    "runtime-main.js": "/test-space-marketing/static/js/runtime-main.ced99b50.js",
-    "runtime-main.js.map": "/test-space-marketing/static/js/runtime-main.ced99b50.js.map",
+    "main.css": "/test-space-marketing/static/css/main.03828588.chunk.css",
+    "main.js": "/test-space-marketing/static/js/main.2d45ea72.chunk.js",
+    "main.js.map": "/test-space-marketing/static/js/main.2d45ea72.chunk.js.map",
+    "runtime-main.js": "/test-space-marketing/static/js/runtime-main.92bbc282.js",
+    "runtime-main.js.map": "/test-space-marketing/static/js/runtime-main.92bbc282.js.map",
     "static/css/2.30e8f46e.chunk.css": "/test-space-marketing/static/css/2.30e8f46e.chunk.css",
-    "static/js/2.85164a16.chunk.js": "/test-space-marketing/static/js/2.85164a16.chunk.js",
-    "static/js/2.85164a16.chunk.js.map": "/test-space-marketing/static/js/2.85164a16.chunk.js.map",
-    "static/js/3.b7709aee.chunk.js": "/test-space-marketing/static/js/3.b7709aee.chunk.js",
-    "static/js/3.b7709aee.chunk.js.map": "/test-space-marketing/static/js/3.b7709aee.chunk.js.map",
+    "static/js/2.e5ac50f0.chunk.js": "/test-space-marketing/static/js/2.e5ac50f0.chunk.js",
+    "static/js/2.e5ac50f0.chunk.js.map": "/test-space-marketing/static/js/2.e5ac50f0.chunk.js.map",
+    "static/js/3.95def092.chunk.js": "/test-space-marketing/static/js/3.95def092.chunk.js",
+    "static/js/3.95def092.chunk.js.map": "/test-space-marketing/static/js/3.95def092.chunk.js.map",
     "index.html": "/test-space-marketing/index.html",
     "static/css/2.30e8f46e.chunk.css.map": "/test-space-marketing/static/css/2.30e8f46e.chunk.css.map",
-    "static/css/main.79ef19fa.chunk.css.map": "/test-space-marketing/static/css/main.79ef19fa.chunk.css.map",
-    "static/js/2.85164a16.chunk.js.LICENSE.txt": "/test-space-marketing/static/js/2.85164a16.chunk.js.LICENSE.txt",
+    "static/css/main.03828588.chunk.css.map": "/test-space-marketing/static/css/main.03828588.chunk.css.map",
+    "static/js/2.e5ac50f0.chunk.js.LICENSE.txt": "/test-space-marketing/static/js/2.e5ac50f0.chunk.js.LICENSE.txt",
     "static/media/1.1f5b32f7.avif": "/test-space-marketing/static/media/1.1f5b32f7.avif",
     "static/media/2.00064072.webp": "/test-space-marketing/static/media/2.00064072.webp",
     "static/media/3.f1b93fb8.avif": "/test-space-marketing/static/media/3.f1b93fb8.avif",
@@ -24,10 +24,10 @@
     "static/media/star.cb10274a.png": "/test-space-marketing/static/media/star.cb10274a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ced99b50.js",
+    "static/js/runtime-main.92bbc282.js",
     "static/css/2.30e8f46e.chunk.css",
-    "static/js/2.85164a16.chunk.js",
-    "static/css/main.79ef19fa.chunk.css",
-    "static/js/main.868b6b6e.chunk.js"
+    "static/js/2.e5ac50f0.chunk.js",
+    "static/css/main.03828588.chunk.css",
+    "static/js/main.2d45ea72.chunk.js"
   ]
 }
