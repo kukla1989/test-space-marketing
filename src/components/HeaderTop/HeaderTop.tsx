@@ -2,7 +2,7 @@ import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 import './headerTop.scss';
-import PersonSVG from '../../icons/PersonSVG';
+import PersonSVG from '../../assets/icons/PersonSVG';
 
 const linkNames = [
   ['globo.com', '#0669DE'],
@@ -29,7 +29,7 @@ const HeaderTop = () => {
         ))}
       </div>
 
-      <div className="right">
+      <div className="h-right">
         <a href="#form" className="right-link link">Assine Já</a>
 
         <a href="#form" className="right-link link">

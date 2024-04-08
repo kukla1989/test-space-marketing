@@ -1,0 +1,38 @@
+@import '../../styles/vars';
+@import '../../styles/mixins';
+
+.recommended {
+  display: flex;
+  gap: 10px;
+  width: 650px;
+  margin-top: 30px;
+
+  @include onPhone {
+    width: auto;
+  }
+}
+
+.image {
+  object-fit: contain;
+  width: 190px;
+  height: 108px;
+  align-self: center;
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  height: 24px;
+}
+
+.star-text {
+  margin: 0;
+}
+
+.r-text {
+  @include redLink;
+}

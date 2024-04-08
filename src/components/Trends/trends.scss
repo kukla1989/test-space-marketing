@@ -1,0 +1,61 @@
+@import '../../styles/vars';
+@import '../../styles/mixins';
+
+.t-top {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.trend-ico {
+  height: 28px;
+}
+
+.t-title {
+  font-size: 24px;
+  font-family: $fontSans;
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: $fontWeightSemiBold;
+}
+
+.trend {
+  display: flex;
+  gap: 15px;
+
+  @include onPhone {
+    gap: 0;
+  }
+}
+
+.position {
+  color: $cGray;
+  font-family: $fontSans;
+  line-height: 48px;
+  font-size: 40px;
+}
+
+.t-link {
+  @include redLink;
+}
+
+.t-img {
+  height: 120px;
+  border-radius: 8px;
+  align-self: center;
+
+  @include onPhone {
+    width: 100px;
+    height: 76px;
+    object-fit: cover;
+  }
+}
+
+.t-line {
+  height: 1px;
+  background-color: $cGrayLight;
+  border-radius: 4px;
+  margin: 20px 0;
+}

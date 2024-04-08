@@ -7,17 +7,20 @@
   justify-content: space-between;
   align-items: center;
 
-
-
   @include onPhone {
     padding: 0;
-    width: 700px;
   }
 }
 
 .left {
   display: flex;
   gap: 10px;
+
+  @include onPhone {
+    > :nth-child(n + 6) {
+      display: none;
+    }
+  }
 }
 
 .link {
@@ -36,7 +39,7 @@
   }
 }
 
-.right {
+.h-right {
   @include onPhone {
     display: none;
   }

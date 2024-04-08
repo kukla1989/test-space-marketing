@@ -15,3 +15,13 @@
     @content;
   }
 }
+
+@mixin redLink {
+  text-decoration: none;
+  color: $cRedPrimary;
+  font-weight: $fontWeightSemiBold;
+
+  &:hover {
+    color: $cRedDark;
+  }
+}

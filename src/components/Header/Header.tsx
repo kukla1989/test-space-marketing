@@ -3,9 +3,9 @@
 import React, { useState } from 'react';
 
 import './header.scss';
-import G1 from '../../icons/G1';
-import Loupe from '../../icons/Loupe';
-import CloseSVG from '../../icons/CloseSVG';
+import G1 from '../../assets/icons/G1';
+import Loupe from '../../assets/icons/Loupe';
+import CloseSVG from '../../assets/icons/CloseSVG';
 
 const Header = () => {
   const [inputValue, setInputValue] = useState('');

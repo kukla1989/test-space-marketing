@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './done.scss';
-import DoneSVG from '../../icons/DoneSVG';
+import DoneSVG from '../../assets/icons/DoneSVG';
 
 const Done = () => {
   return (
