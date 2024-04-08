@@ -1,8 +1,8 @@
 import React from 'react';
 
 import './recommended.scss';
-import img from '../../icons/recommended.avif';
-import star from '../../icons/star.png';
+import img from '../../assets/imgs/recommended.avif';
+import star from '../../assets/imgs/star.png';
 
 const Recommended = () => {
   return (

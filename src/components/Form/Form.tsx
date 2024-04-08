@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import IntlTelInput from 'react-intl-tel-input';
+import 'react-intl-tel-input/dist/main.css';
 
 import './form.scss';
 
@@ -37,7 +39,7 @@ const Form = () => {
         isFormValid = false;
       }
 
-      if ((key === 'name' || key === 'surname') && !/^[a-zA-Z]+$/.test(value)) {
+      if ((key === 'name' || key === 'surname') && !/^[a-zA-Zа-яА-Я]+$/.test(value)) {
         newErrors[key] = `${key} can consist only of letter`;
         isFormValid = false;
       }
@@ -55,6 +57,13 @@ const Form = () => {
     }
 
     navigate('/done');
+  };
+
+  const handleChangePhone = (...args) => {
+    const fullNumber = args[2].dialCode + args[1];
+
+    setFormData({ ...formData, phone: fullNumber });
+    setErrors({ ...errors, phone: '' });
   };
 
   return (
@@ -90,7 +99,12 @@ const Form = () => {
         </div>
 
         <div className="form-group">
-          <input className="form-input" type="tel" placeholder="phone" name="phone" value={formData.phone} onChange={handleChange} />
+          <IntlTelInput
+            containerClassName="intl-tel-input"
+            inputClassName="form-input form-phone"
+            preferredCountries={['pt']}
+            onPhoneNumberChange={handleChangePhone}
+          />
           {errors.phone && <div className="error">{errors.phone}</div>}
         </div>
 

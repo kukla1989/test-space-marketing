@@ -31,7 +31,6 @@
   outline: none;
   background-color: $cGrayLight;
 
-
   @include onPhone {
     width: 300px;
     height: 30px;
@@ -43,12 +42,26 @@
 }
 
 .submit {
+  width: 478px;
   background-color: $cRedPrimary;
   color: $cWhite;
+
+
+  @include onPhone {
+    width: 312px;
+  }
 
   &:hover {
     background-color: $cGrayLight;
     color: black;
     border: 1px solid $cGray;
+  }
+}
+
+.form-phone {
+  width: 478px;
+
+  @include onPhone {
+    width: 312px;
   }
 }
